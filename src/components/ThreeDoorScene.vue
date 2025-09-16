@@ -236,6 +236,7 @@ export default defineComponent({
       // scene.add(helper)
 
       // OrbitControls
+      // @ts-ignore
       const { OrbitControls } = await import('three/examples/jsm/controls/OrbitControls')
       controls = new OrbitControls(camera, renderer.domElement)
       controls.enableDamping = true
