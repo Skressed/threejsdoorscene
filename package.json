@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "deploy": "npm run build && gh-pages -d dist"
   },
-  "homepage": "https://skressed.github.io/threejs-door-room/",
+  "homepage": "https://skressed.github.io/threejsdoorscene/",
   "dependencies": {
     "three": "^0.180.0",
     "vue": "^3.5.18"
